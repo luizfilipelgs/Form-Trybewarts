@@ -1,7 +1,7 @@
-const login = document.getElementById('email');
+/* const login = document.getElementById('email');
 const senha = document.getElementById('senha');
-/* console.log(`email: ${login}`);
-console.log(`senha: ${senha}`); */
+console.log(`email: ${login}`);
+console.log(`senha: ${senha}`);
 
 function validate() {
     event.preventDefault;
@@ -10,4 +10,4 @@ function validate() {
   } else {
     alert('Email ou senha inválidos');
   }
-}
+} */
