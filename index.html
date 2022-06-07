@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Imagem Logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login" action="" method="get">
             
             <input type="email" name="email" id="email" placeholder="Email"> 
@@ -19,6 +20,28 @@
             <button>Entrar</button>
         </form>
     </header>
+
+    <main>
+        <form action="" id="evaluation-form" method="get">
+            <div>
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+                <input type="text" id="input-email" placeholder="Email">
+            </div>
+
+            <label for="house">Casa:</label>
+            <select name="" id="house">
+                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+        </form>
+
+        <div>
+            <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="">
+        </div>
+    </main>
     
 </body>
 </html>
