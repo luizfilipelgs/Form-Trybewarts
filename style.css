@@ -6,7 +6,45 @@
   justify-content: space-between;
 }
 
+
 .trybewarts-login {
   display: flex;
   align-items: center;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+body {
+  background-color: gray;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+#familia-conteudo{
+    display: flex;
+    margin: 50px;
+}
+
+#familia{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#conteudos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }

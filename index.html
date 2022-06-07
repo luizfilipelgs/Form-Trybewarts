@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Imagem Logo">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login" action="" method="get">
             
             <input type="email" name="email" id="email" placeholder="Email"> 
@@ -19,6 +20,67 @@
             <button type="submit" onclick="validate()">Entrar</button>
         </form>
     </header>
+
+    <main>
+        <form action="" id="evaluation-form" method="get">
+            <div>
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+            </div>   
+            <div>
+                <input type="text" id="input-email" placeholder="Email">
+                <label for="house">Casa:</label>
+                <select name="" id="house">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+            <div id="familia-conteudo">
+                <div id="familia">
+                    <label for="" id ="label-family">Qual sua família?</label> 
+                    <input type="radio" name="family" id="" value="Frontend"> Familia Frontend
+                    <input type="radio" name="family" id="" value="Backend"> Familia Backend
+                    <input type="radio" name="family" id="" value="FullStack"> Familia FullStack
+                </div>
+
+                <div id="conteudos">
+                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <input class="subject" type="checkbox" name="" id="" value="HoFs"> HoFs
+                    <input class="subject" type="checkbox" name="" id="" value="Jest"> Jest
+                    <input class="subject" type="checkbox" name="" id="" value="Promises"> Promises
+                    <input class="subject" type="checkbox" name="" id="" value="React"> React
+                    <input class="subject" type="checkbox" name="" id="" value="SQL"> SQL
+                    <input class="subject" type="checkbox" name="" id="" value="Python"> Python
+
+                </div>
+            </div>
+
+            <div>
+                <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+                <input type="radio" name="rate" id="" value="1"> 1
+                <input type="radio" name="rate" id="label-rate" value="2"> 2
+                <input type="radio" name="rate" id="label-rate" value="3"> 3
+                <input type="radio" name="rate" id="label-rate" value="4"> 4
+                <input type="radio" name="rate" id="label-rate" value="5"> 5
+                <input type="radio" name="rate" id="label-rate" value="6"> 6
+                <input type="radio" name="rate" id="label-rate" value="7"> 7
+                <input type="radio" name="rate" id="label-rate" value="8"> 8
+                <input type="radio" name="rate" id="label-rate" value="9"> 9
+                <input type="radio" name="rate" id="label-rate" value="10"> 10
+            </div>
+            <div >
+                <label class="textarea" for="">Deixe seu comentário:</label>
+                <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
+
+        </form>
+
+        <div>
+            <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="">
+        </div>
+    </main>
     
 </body>
 </html>
