@@ -26,3 +26,13 @@ function termoAceito() {
 }
 
 termo.addEventListener('change', termoAceito);
+
+const getTextArea = document.getElementById('textarea');
+const getCounter = document.getElementById('counter');
+
+getTextArea.addEventListener('keyup', (event) => {
+  const currentLength = event.target.value.length;
+  getCounter.innerText = `Caracteres restantes: ${
+    event.target.maxLength - currentLength
+  }`;
+});

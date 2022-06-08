@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: gray;
   margin: 0;
@@ -18,17 +12,19 @@ body {
   background-color: rgb(50, 167, 145);
   height: 80px;
   width: auto;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 40;
 }
 
 main {
   display: flex;
   padding: 40px;
+  border: 2px solid black;
 }
 
 aside {
-  width: 40%;
+  display: flex;
+  margin: auto;
 }
 
 #rodape {
@@ -78,4 +74,8 @@ aside {
 
 .margem-section {
   margin: 20px;
+}
+
+#enviar {
+  margin: auto;
 }
