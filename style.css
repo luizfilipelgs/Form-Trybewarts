@@ -1,18 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: gray;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 80px;
-  width: 100%;
+  width: auto;
   justify-content: space-between;
+  padding: 0 40;
 }
 
 main {
   display: flex;
+  padding: 40px;
+}
+
+aside {
+  width: 40%;
+}
+
+#rodape {
+  background-color: blue;
+  width: 100%;
+  height: 25px;
+  color: white;
+  text-align: center;
 }
 
 .trybewarts-login {
@@ -52,13 +76,6 @@ main {
   margin: 10px;
 }
 
-#rodape {
-  background-color: blue;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 25px;
-  color: white;
-  text-align: center;
+.margem-section {
+  margin: 20px;
 }
