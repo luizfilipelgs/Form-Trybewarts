@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 body {
-  background-color: gray;
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-size: large;
+  font-style: oblique;
 }
 
 .header {
@@ -19,12 +20,12 @@ body {
 main {
   display: flex;
   padding: 40px;
-  border: 2px solid black;
+  margin: auto;
 }
 
 aside {
   display: flex;
-  margin: auto;
+  margin: auto 20px auto 40px;
 }
 
 #rodape {
@@ -49,6 +50,8 @@ aside {
   display: flex;
   width: 675px;
   flex-direction: column;
+  padding-bottom: 25px;
+  border: 2px solid black;
 }
 
 #trybewarts-forms-logo {
@@ -57,19 +60,21 @@ aside {
 
 #familia-conteudo {
   display: flex;
-  margin: 50px;
+  margin: 20px;
 }
 
 #familia {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  padding: 10px;
 }
 
 #conteudos {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  padding: 10px;
 }
 
 .margem-section {
@@ -78,4 +83,22 @@ aside {
 
 #enviar {
   margin: auto;
+}
+
+input {
+  margin: 2px;
+}
+
+.borda-input {
+  border-radius: 10px;
+  font-size: large;
+}
+
+button {
+  border-radius: 10px;
+  font-size: large;
+}
+
+#house {
+  font-size: large;
 }
