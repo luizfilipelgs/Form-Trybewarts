@@ -32,7 +32,7 @@ const getCounter = document.getElementById('counter');
 
 getTextArea.addEventListener('keyup', (event) => {
   const currentLength = event.target.value.length;
-  getCounter.innerText = `Caracteres restantes: ${
+  getCounter.innerText = `${
     event.target.maxLength - currentLength
-  }`;
+  }/500`;
 });

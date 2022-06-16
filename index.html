@@ -13,9 +13,9 @@
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login" action="" method="get">
             
-            <input class="borda-input" type="email" name="email" id="email" placeholder="  Email"> 
+            <input class="borda-input input-header" type="email" name="email" id="email" placeholder="  Email"> 
                     
-            <input class="borda-input" type="password" name="password" id="senha" placeholder="  Senha">
+            <input class="borda-input input-header" type="password" name="password" id="senha" placeholder="  Senha">
 
             <button id="logar" type="submit" value="logar" >Entrar</button>
         </form>
@@ -24,22 +24,22 @@
     <main>
         <form action="" id="evaluation-form">
             <section class="margem-section flex-space">
-                <input class="borda-input" type="text" id="input-name" placeholder="Nome">
-                <input class="borda-input" type="text" id="input-lastname" placeholder="Sobrenome">
+                <input class="borda-input input-form " type="text" id="input-name" placeholder="Nome">
+                <input class="borda-input input-form " type="text" id="input-lastname" placeholder="Sobrenome">
             </section> 
 
             <section class="margem-section">
-                <input class="borda-input" type="text" id="input-email" placeholder="Email">
+                <input class="borda-input input-form " type="text" id="input-email" placeholder="Email">
                 <label for="house">Casa:</label>
-                <select name="" id="house">
+                <select class="borda-input" name="select-house" id="house">
                     <option value="Gitnória" id="gitnoria-house">Gitnória</option>
                     <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
                     <option value="Corvinode" id="corvinode-house">Corvinode</option>
                     <option value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </section>
-
-            <section id="familia-conteudo" class="margem-section">
+      
+            <section id="familia-conteudo">
                 <div id="familia">
                     <label for="" id ="label-family">Qual sua família?</label><br>
 
@@ -55,30 +55,37 @@
                 </div>
 
                 <div id="conteudos">
-                    <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="HoFs"> HoFs
-                    </label>
-                   
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="Jest"> Jest
-                    </label>
-                   
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="Promises"> Promises
-                    </label>
+                    <div>
+                      <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    </div>
+                    <br>
+                    <div>
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="HoFs"> HoFs
+                      </label>
                     
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="React"> React
-                    </label>
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="Jest"> Jest
+                      </label>
                     
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="SQL"> SQL
-                    </label>
-                    
-                    <label for="">
-                        <input class="subject" type="checkbox" name=""  value="Python"> Python
-                    </label>
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="Promises"> Promises
+                      </label>
+                    </div>
+                    <br>
+                    <div>
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="React"> React
+                      </label>
+                      
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="SQL"> SQL
+                      </label>
+                      
+                      <label for="">
+                          <input class="subject" type="checkbox" name=""  value="Python"> Python
+                      </label>
+                    </div>
                     
 
                 </div>
@@ -100,8 +107,8 @@
             
             <section class="margem-section">
                     <label class="textarea" for="textarea">Deixe seu comentário:</label><br/><br>
-                    <textarea class="borda-input" id="textarea" cols="50" maxlength="500" rows="10"></textarea>
-                    <p id="counter">Caracteres restantes: 500</p>
+                    <textarea class="borda-input" id="textarea"  maxlength="500" ></textarea>
+                    <p id="counter">500/500</p>
                 </div>
             </section>
 
@@ -110,7 +117,7 @@
                 <input type="checkbox" name="" id="agreement"> Sim
             </section>
 
-            <section id="enviar">
+            <section id="btn-enviar">
                 <button type="submit" id="submit-btn">Enviar</button>
             </section>
 
